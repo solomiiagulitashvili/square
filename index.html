@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="row">
+            <nav class="main-nav col-6 d-flex flex-row justify-content-start">
+                <div class="main-nav-icon"></div>
+                <ul class="main-nav-open first-level flex-row justify-content-between">
+                    <li><a href="#">portfolio</a>
+                        <ul class="second-level flex-column">
+                            <li><a href="#">Fashion</a></li>
+                            <li><a href="#">Editorial</a></li>
+                            <li><a href="#">street</a></li>
+                            <li><a href="#">black white</a>
+                                <ul class="third-level flex-column">
+                                    <li><a href="#">Gallery /1</a></li>
+                                    <li><a href="#">Gallery /2</a></li>
+                                    <li><a href="#">Gallery /2</a></li>
+                                    <li><a href="#">Gallery /4</a></li>
+                                    <li><a href="#">Gallery /5</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">personal</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">clients</a></li>
+                    <li><a href="#">news</a></li>
+                    <li><a href="#">about me</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+            </nav>
+
+            <img class="logo" src="img/logo.jpg">
+            <ul class="social-icons col-2 offset-4 d-flex flex-row justify-content-between align-items-center">
+                <li><a href="#"><img src="img/facebook.svg"></a></li>
+                <li><a href="#"><img src="img/twitter.svg"></a></li>
+                <li><a href="#"><img src="img/insta.svg"></a></li>
+                <li><a href="#"><img src="img/some-social.svg"></a></li>
+                <li><a href="#"><img src="img/google.svg"></a></li>
+                <li><a href="#"><img src="img/mail.svg"></a></li>
+            </ul>
+        </header>
+
+        <section class="portfolio">
+            <img class="portfolio-img" src="img/portfolio.jpg">
+            <div class="popup-closed">
+                <img class="open-popup" src="img/open-popup-arrow.svg">
+            </div>
+            <div class="popup-opened">
+                <img class="close-popup" src="img/close-popup-arrow.svg">
+                <div class="wrapper popup col-3 d-flex flex-row justify-content-between">
+                    <div class="wrapper-popup-1">
+                        <h4>morgan freeman</h4>
+                        <span>actor</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fringilla mi orci, ac venenatis ante
+                            venenatis eget.</p>
+                    </div>
+                    <div class="wrapper-popup-2">
+                        <div class="wrapper-popup-toggle d-flex flex-row flex-nowrap">
+                            <button><img class="toggle-back" src="img/toggle-arrow.jpg"></button>
+                            <button><img class="toggle-next" src="img/toggle-arrow.jpg"></button>
+                        </div>
+                        <span>1 / 10</span>
+                    </div>
+                </div>
+                <ul class="popup d-flex flex-row justify-content-between">
+                    <li><a href="#"><img src="img/like-popup.svg"></a></li>
+                    <li><a href="#"><img src="img/share-popup.svg"></a></li>
+                    <li><a href="#"><img src="img/mail-popup.svg"></a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="bottom d-flex flex-row justify-content-between">
+            <div class="workshop col-4">
+                <img class="bottom-img" src="img/workshop.jpg">
+                <p>fashion workshop</p>
+                <p class="date"><time datetime="2019-11-21-23">NOV 21-23</time></p>
+                <p class="time"><time datetime="9:00 - 4:00">9:00am - 4:00pm</time></p>
+                <div class="wrapper-logo-workshop">
+                    <img class="logo-workshop" src="img/logo-workshop.svg">
+                </div>
+            </div>
+
+            <div class="news col-4">
+                <h3>news</h3>
+                <ul class="news-list d-flex flex-column">
+                    <li class="d-flex flex-row">
+                        <img class="news-photo" src="img/news1.jpg">
+                        <div class="item-column">
+                            <h4>New Gallery Set</h4>
+                            <p class="news-time"><time datetime="2014-12-09">09.12.2014</time></p>
+                            <p class="news-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fringilla mi orci, ac
+                                venenatis ante venenatis eget. <span><a href="#">read more</a></span></p>
+                        </div>
+                    </li>
+                    <li class="d-flex flex-row">
+                        <img class="news-photo" src="img/news2.jpg">
+                        <div class="item-column">
+                            <h4>wedding workshop</h4>
+                            <p class="news-time"><time datetime="09-12-2014">09.12.2014</time></p>
+                            <p class="news-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fringilla mi orci, ac
+                                venenatis ante venenatis eget. <span><a href="#">read more</a></span></p>
+                       </div>
+                    </li>
+                    <li class="d-flex flex-row">
+                        <img class="news-photo" src="img/news3.jpg">
+                        <div class="item-column">
+                            <h4>Personal Project</h4>
+                            <p class="news-time"><time datetime="09-12-2014">09.12.2014</time></p>
+                            <p class="news-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fringilla mi orci, ac
+                                venenatis ante venenatis eget. <span><a href="#">read more</a></span></p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="contacts col-4 d-flex flex-row flex-wrap">
+                <div class="wrapper-contacts-1">
+                    <img class="logo-bottom" src="img/logo-bottom.jpg" width="100px" height="100px">
+                </div>
+                <div class="wrapper-contacts-2">
+                    <ul class="contacts-bottom-list">
+                        <li class="d-flex flex-row">
+                            <img src="img/phone.svg">
+                            <p>+ 00 123 456 7890</p>
+                        </li>
+                        <li class="d-flex flex-row">
+                            <img src="img/mail.svg">
+                            <p>info@square.com</p>
+                        </li>
+                    </ul>
+
+                    <ul class="social-icons-bottom-list d-flex flex-row justify-content-between">
+                        <li><a href="#"><img src="img/facebook.svg"></a></li>
+                        <li><a href="#"><img src="img/twitter.svg"></a></li>
+                        <li><a href="#"><img src="img/insta.svg"></a></li>
+                        <li><a href="#"><img src="img/some-social.svg"></a></li>
+                        <li><a href="#"><img src="img/google.svg"></a></li>
+                    </ul>
+                </div>
+                <div class="wrapper-contacts-3">
+                    <img class="twitter-bottom" src="img/twitter-large.svg">
+                    <p>Unerdwear cookie liquorice. Cake donut cupcake lollipop soufflé candy. Chocolate oat cake <a
+                            href="#">@cheesecake</a> tootsie roll.</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <ul class="partners col-12 d-flex flex-row justify-content-between">
+                <li><a href="#"><img src="img/phaseone logo.jpg"></a></li>
+                <li><a href="#"><img src="img/manfrotto logo.jpg"></a></li>
+                <li><a href="#"><img src="img/hasselblad logo.jpg"></a></li>
+                <li><a href="#"><img src="img/broncolor logo.jpg"></a></li>
+            </ul>
+            <p class="created-by">Created by 2ndself.com, with <span><img src="img/love.svg"></span>
+                <br>
+                exclusive for theuncreativelab.com
+            </p>
+            <p class="copyright">© 2014 Square. All Rights Reserved.</p>
+        </footer>
+    </div>
+
+
+
+
+
+
+    <script id="__bs_script__">//<![CDATA[
+        document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.26.7'><\/script>".replace("HOST", location.hostname));
+    //]]></script>
+    <script src="scripts/scripts.js"></script>
+</body>
+
+</html>

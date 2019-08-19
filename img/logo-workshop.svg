@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="35" height="11" viewBox="0 0 35 11">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 14px;
+        fill: #fff;
+        font-family: "Roboto Condensed";
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+    </style>
+  </defs>
+  <text id="rsvp" class="cls-1" x="-0.367" y="9.68">rsvp</text>
+</svg>

@@ -1,0 +1,243 @@
+@mixin nav-link-font{
+    font-family: sans-serif, Roboto Condensed;
+    font-weight: bold;
+    font-size: 12px;
+    color: $main-color;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+.workshop p {
+    font-family: sans-serif, Roboto Condensed;
+    font-weight: light;
+    font-size: 18px;
+    line-height: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+
+    &.date {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 14px;
+    }
+
+    &.time {
+        font-size: 14px;
+    }
+}
+
+.news,
+.recent-post {
+    & h3 {
+    font-family: sans-serif, Roboto Condensed;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: $main-color;
+    }
+
+    & ul {
+        font-family: sans-serif, Roboto Condensed;
+        font-weight: bold;
+        font-size: 12px;
+        font-weight: normal;
+        color: $main-color;
+        h4 {
+            line-height: 14px;
+            text-transform: uppercase;
+        }
+        & p {
+                line-height: 14px;
+
+            &.news-time {
+                font-size: 11px;
+            }
+            &.news-text {
+                line-height: 10px;
+            }
+            & a {
+                font-size: 10px;
+                color: $accent-color;
+                font-weight: bold;
+                text-decoration: none;
+            }
+        }
+        
+    }
+    
+}
+
+.contacts {
+    & .wrapper-contacts-2 {
+        font-family: sans-serif, Roboto Condensed;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 14px;
+        color: $main-color;
+    }
+    & .wrapper-contacts-3 {
+        font-family: sans-serif, Roboto Condensed;
+        font-weight: 100;
+        font-size: 16px;
+        line-height: 18px;
+        font-style: italic;
+        color: $accent-color;
+        & a {
+            color: $main-color;
+            text-decoration: none;
+        }
+    }
+}
+.category {
+    & h3 {
+    font-family: sans-serif, Roboto Condensed;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: $main-color;
+    }
+    & ul {
+    font-family: sans-serif, Roboto Condensed;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: $main-color;
+    }
+}
+
+footer p {
+    font-family: sans-serif, Myriad Pro;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 14px;
+    color: $main-color;
+}
+
+.popup-opened {
+    font-family: sans-serif, Roboto Condensed;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: $main-color;
+    text-transform: uppercase;
+    & h4 {
+        font-weight: bold;
+    }
+    & span {
+        font-size: 14px;
+        font-style: italic;
+        text-transform: none;
+    }
+    & p {
+        font-size: 10px;
+        line-height: 10px;
+        font-weight: 100;
+        
+    }
+}
+
+.photo {
+    & h3 {
+        font-family: sans-serif, Roboto Condensed;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 18px;
+        color: $main-color;
+        text-transform: uppercase;
+    }
+    & ul {
+        font-family: sans-serif, Roboto Condensed;
+        font-weight: 100;
+        font-size: 14px;
+        line-height: 14px;
+        color: $main-color;
+        font-style: italic;
+        }
+    & .text {
+        font-family: sans-serif, Roboto Condensed;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 14px;
+        color: $main-color;   
+    }
+    & .share {
+        font-family: sans-serif, Roboto Condensed;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 14px;
+        color: $main-color;
+        text-transform: uppercase;
+    }
+    
+}
+.comments {
+    & h3 {
+        font-family: sans-serif, Roboto Condensed;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 14px;
+        color: $main-color;
+    }
+    & ul {
+        font-family: sans-serif, Roboto Condensed;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 14px;
+        color: $main-color;
+        & h4 {
+        font-family: sans-serif, Roboto Condensed;
+        font-weight: bold;
+        line-height: 14px;
+        color: $main-color;
+        }
+        & p {
+            text-transform: uppercase;
+            &.comment-text {
+                font-size: 12px;
+                text-transform: none;
+            }
+        }
+        & time {
+            color: #7f8c8c;
+            font-size: 12px;
+        }
+       
+    }
+}
+.leave-comment {
+    & h3 {
+        font-family: sans-serif, Roboto Condensed;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 14px;
+        color: $main-color;
+        margin-bottom: 20px;
+    }
+    & input,
+      textarea {
+        font-family: sans-serif, Roboto Condensed;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 14px;
+        color: #aaaaaa;
+      }
+    & .comment-btn {
+        font-family: sans-serif, Roboto Condensed;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 14px;
+        color: #ffffff;
+        text-transform: uppercase;
+    }  
+    & p {
+        font-family: sans-serif, Roboto Condensed;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 14px;
+        color: $main-color;
+    }
+}

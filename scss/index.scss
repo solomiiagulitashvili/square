@@ -1,0 +1,118 @@
+$main-color: #362f2f;
+$accent-color: #c3a000;
+
+
+
+.container {
+    padding: 0;
+}
+
+
+
+
+@import "typography.scss";
+@import "header.scss";
+@import "bottom.scss";
+@import "footer.scss";
+@import "post.scss";
+
+.portfolio {
+    position: relative;
+}
+
+.popup-closed {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    background-color: #ffffff;
+    bottom: 4px;
+    align-content: center;
+    cursor: pointer;
+
+    & img {
+        width: 18px;
+        height: 17px;
+        margin: 25px 0 0 20px;
+    }
+}
+
+.popup-opened {
+    position: absolute;
+    width: 265px;
+    height: 265px;
+    background-color: #ffffff;
+    bottom: 4px;
+    box-sizing: border-box;
+    display: none;
+    .wrapper-popup-2 {
+        width: 70px;
+        padding-left: 7px;
+        height: 65px;
+        margin-top: 85px;
+        & div {
+            margin-bottom: 5px;
+            
+                position: relative;
+           
+                &.wrapper-popup-toggle:after {
+                    content: "";
+                    position: absolute;
+                    width: 5px;
+                    height: 10px;;
+                    display: block;
+                    background-image: url("../img/arrow-toggle.svg");
+                    top: 11px;
+                    left: 20px;
+                }
+                &.wrapper-popup-toggle:before {
+                    content: "";
+                    position: absolute;
+                    width: 5px;
+                    height: 10px;;
+                    display: block;
+                    background-image: url("../img/arrow-toggle.svg");
+                    transform: rotate(180deg);
+                    top: 11px;
+                    right: 5px;
+                }
+                & button {
+                    border: none;
+                    background-color: transparent;
+                    width: 34px;
+                    height: 34px;
+                }
+                
+        }
+        & span {
+            margin-left: 20px;
+        }
+    }
+    & ul {
+        padding: 0;
+        list-style: none;
+        width: 215px;
+        margin: 45px 0 0 25px;
+    }
+
+    & > img {
+        margin: 10px 0 0 240px;
+        width: 15px;
+        height: 15px;
+        cursor: pointer;
+    }
+    & h4 {
+        margin: 40px 0 0 0;
+        width: 160px;
+    }
+    & p {
+        width: 170px;
+    }
+}
+
+.popup-show {
+    display: block;
+}
+
+
+
+

@@ -1,0 +1,160 @@
+.bottom {
+    margin-top: 55px;
+
+    & div {
+        width: 360px;
+        height: 360px;
+        box-sizing: border-box;
+    }
+}
+.workshop {
+    padding: 0;
+    background-color: #000000;
+
+    & > img {
+        width: 100%;
+        height: 150px;
+    }
+
+    & div {
+        position: absolute;
+        width: 65px;
+        height: 65px;
+        background-color: $accent-color;
+        margin-left: 155px;
+        margin-top: 15px;
+
+        & .logo-workshop {
+            margin-top: 25px;
+            margin-left: 15px;
+        }
+    }
+}
+
+.news,
+.recent-post {
+    padding: 0;
+    margin-left: 30px;
+
+    & h3 {
+        margin: 0 0 30px 0;
+        padding-left: 15px;
+        position: relative;
+    }
+
+    & h3:before {
+        content: "";
+        position: absolute;
+        display: block;
+        width: 170px;
+        height: 2px;
+        background-color: $accent-color;
+        top: 17px;
+        left: 0;
+
+    }
+
+    & .news-list {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+
+        & li {
+            margin-bottom: 50px;
+        }
+
+        & .news-time {
+            margin: 0;
+        }
+        & .news-text {
+            margin-bottom: 0;
+            margin-top: 9px;
+        }
+        & .item-column {
+            height: 67px;
+        }
+    }
+    & img {
+        width: 67px;
+        height: 67px;
+        margin-right: 30px;
+    }
+
+    & h4 {
+        margin: 0;
+    }
+}
+
+.contacts {
+    padding: 0;
+    margin-left: 30px;
+    box-sizing: border-box;
+
+    & .wrapper-contacts-1 {
+        margin: 30px 0 0 30px;
+        width: 100px;
+        height: 100px;
+    }
+    & .wrapper-contacts-2 {
+        width: 225px;
+        height: 100px;
+
+        & .contacts-bottom-list {
+            margin: 45px 0 0 25px;
+            padding: 0;
+            list-style: none;
+            & li {
+                margin-bottom: 15px;
+           
+
+                & img {
+                    margin-right: 25px;
+                }
+                
+                & p {
+                    margin: 0;
+                }
+            }
+        }
+        & .social-icons-bottom-list {
+            padding: 0;
+            list-style: none;
+            margin: 20px 0 0 40px;
+            width: 120px;
+        }
+    }
+    & .wrapper-contacts-3 {
+        width: 360px;
+        height: 100px;
+        & img {
+            margin-left: 170px;
+        }
+        & p {
+            text-align: center;
+            width: 320px;
+        }
+    }
+}
+ .category {
+    & h3 {
+        margin: 0 0 30px 0;
+        padding-left: 15px;
+        position: relative;
+    }
+
+    & h3:before {
+        content: "";
+        position: absolute;
+        display: block;
+        width: 170px;
+        height: 2px;
+        background-color: $accent-color;
+        top: 17px;
+        left: 0;
+
+    }
+    & ul {
+        list-style: square;
+    }
+ }
+

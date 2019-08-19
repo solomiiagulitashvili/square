@@ -1,0 +1,23 @@
+footer {
+    margin-top: 95px;
+
+    & ul {
+        margin: 0 0 90px 0;
+        padding: 0 20px 0 20px;
+        list-style: none;
+        
+    }
+
+    & p {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+
+        &.created-by {
+            margin-bottom: 60px;
+        }
+        &.copyright {
+            margin-bottom: 45px;
+        }
+    }
+}

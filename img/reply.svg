@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 28 28">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 16px;
+        fill: #333;
+        text-anchor: end;
+        font-family: FontAwesome;
+      }
+    </style>
+  </defs>
+  <text id="Reply_copy" data-name="Reply copy" class="cls-1" transform="translate(28.001 25.003) scale(2)"><tspan x="0"></tspan></text>
+</svg>
